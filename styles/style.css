@@ -6,4 +6,41 @@
 
 body {
     font-family: "Karla", sans-serif;
+    color: hsl(256, 26%, 20%);
+}
+
+.header {
+    padding: 20px 80px;
+}
+
+.header__nav {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.header__item {
+    margin-left: 20px;
+}
+
+.header__link {
+    text-decoration: none;
+    color: hsl(273, 4%, 51%);
+}
+
+.header__button {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    background-color: white;
+
 }
