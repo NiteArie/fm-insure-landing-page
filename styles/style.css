@@ -9,9 +9,6 @@ body {
     color: hsl(256, 26%, 20%);
 }
 
-.header {
-
-}
 
 .header__nav {
     padding: 20px 80px;
@@ -172,10 +169,6 @@ body {
     gap: 0 20px;
 }
 
-.main__icon {
-
-}
-
 .main__headline {
     margin: 30px 0 20px;
     font-size: 26px;
@@ -284,6 +277,15 @@ body {
 
 .footer__link:hover {
     text-decoration: underline;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
 
 @media only screen and (max-width: 1310px) {
