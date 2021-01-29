@@ -34,7 +34,14 @@ body {
 .header__link {
     text-decoration: none;
     color: hsl(273, 4%, 51%);
+    transition: color 200ms ease-out;
 }
+
+.header__link:hover {
+    color:hsl(256, 26%, 20%);
+}
+
+
 
 .header__button {
     padding: 10px 20px;
@@ -43,6 +50,13 @@ body {
     font-weight: bold;
     background-color: white;
     border: 2px solid hsl(270, 9%, 17%);
+    cursor: pointer;
+    transition: all 200ms ease-out;
+}
+
+.header__button:hover {
+    background-color: hsl(270, 9%, 17%);
+    color: hsl(0, 0%, 98%);
 }
 
 .header__hero {
@@ -114,6 +128,12 @@ body {
     background-color: transparent;
     border: 2px solid hsl(0, 0%, 98%);
     cursor: pointer;
+    transition: all 200ms ease-out;
+}
+
+.header__cta:hover {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(256, 26%, 20%);
 }
 
 .header__intro {
@@ -193,6 +213,13 @@ body {
     text-transform: uppercase;
     letter-spacing: 2px;
     border: 2px solid hsl(0, 0%, 98%);
+    cursor: pointer;
+    transition: all 200ms ease-out;
+}
+
+.main__cta:hover {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(256, 26%, 20%);
 }
 
 /* Footer */
@@ -244,7 +271,16 @@ body {
     margin-bottom: 15px;
 }
 
+.footer__logo:hover {
+    cursor: pointer;
+    filter: brightness(0) saturate(100%);
+}
+
 .footer__link {
     text-decoration: none;
     color: hsl(256, 26%, 20%);
+}
+
+.footer__link:hover {
+    text-decoration: underline;
 }
