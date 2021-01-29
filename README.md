@@ -1,5 +1,9 @@
 # fm-insure-landing-page (Insure Landing Page)
 
+## Live Preview
+
+Live Preview: [https://nitearie.github.io/fm-insure-landing-page/](https://nitearie.github.io/fm-insure-landing-page/)
+
 ## Design Preview
 
 > Desktop
