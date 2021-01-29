@@ -94,3 +94,70 @@ body {
     height: 600px;
     background-image: url("../images/image-intro-desktop.jpg");
 }
+
+
+/* Main */
+
+.main {
+    margin-top: 200px;
+    padding: 80px;
+}
+
+.main__dash {
+    display: inline-block;
+    width: 20%;
+}
+
+.main__title {
+    margin: 30px 0;
+    font-size: 58px;
+    font-family: "DM Serif Display", sans-serif;
+}
+
+.main__features {
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0 20px;
+}
+
+.main__icon {
+
+}
+
+.main__headline {
+    margin: 30px 0 20px;
+    font-size: 26px;
+    font-family: "DM Serif Display", sans-serif;
+}
+
+.main__desc {
+    color: hsl(216, 30%, 68%);
+    line-height: 1.5;
+}
+
+.main__banner {
+    margin: 100px 0;
+    padding: 60px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(256, 26%, 20%);
+}
+
+.main__advertise {
+    flex-basis: 440px;
+    color:hsl(0, 0%, 98%);
+    font-family: "DM Serif Display", sans-serif;
+    font-size: 50px;
+}
+
+.main__cta {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: hsl(0, 0%, 98%);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 2px solid hsl(0, 0%, 98%);
+}
