@@ -52,7 +52,36 @@ body {
     background-color: hsl(256, 26%, 20%);
 }
 
+.header__hero::before {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    left: 0;
+    bottom: -400px;
+    background-image: url("../images/bg-pattern-intro-left-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    z-index: 0;
+    
+}
+
+.header__hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-image: url("../images/bg-pattern-intro-right-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    z-index: 0;
+}
+
 .header__info {
+    position: relative;
+    z-index: 2;
     flex: 1;
 }
 
@@ -84,6 +113,7 @@ body {
     letter-spacing: 2px;
     background-color: transparent;
     border: 2px solid hsl(0, 0%, 98%);
+    cursor: pointer;
 }
 
 .header__intro {
@@ -143,6 +173,9 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: hsl(256, 26%, 20%);
+    background-image: url("../images/bg-pattern-how-we-work-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .main__advertise {
@@ -167,6 +200,8 @@ body {
 .footer {
     padding: 40px 80px;
     background-color: hsl(0, 0%, 98%);
+    background-image: url("../images/bg-pattern-footer-desktop.svg");
+    background-repeat: no-repeat;
 }
 
 .footer__heading {
